@@ -32,7 +32,7 @@ class TaskManager:
         ttk.Combobox(root, textvariable=self.filter_var, values=["All", "Complete", "Incomplete"], state="readonly",
                      width=37).pack(pady=5)
 
-        # Buttons
+        
         self.add_button = tk.Button(root, text="Add Task", width=15, command=self.add_task)
         self.add_button.pack(pady=5)
 
